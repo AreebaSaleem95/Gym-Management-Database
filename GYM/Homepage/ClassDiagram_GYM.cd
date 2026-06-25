@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Homepage.Member">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACJCAAAAAQAACgQAAACYAAAAAAAKAA=</HashCode>
+      <FileName>Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Homepage.Package_line">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAQACAAAAAAAAAAAgAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>Package_line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Homepage.Purchased_package">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAQAAABAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Purchased_package.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Member_Purchases" />
+      <Property Name="Package_line_for_packages" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Homepage.Fee">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAABAAAAgAAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Fee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Member_pay" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Homepage.SQLconnection">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAAEAABAAEAEQABAIAgAAAAAACIAAEACIAACAAKA=</HashCode>
+      <FileName>SQLconnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
